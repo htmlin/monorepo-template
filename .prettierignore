@@ -1,0 +1,8 @@
+.husky/
+dist/
+docs/
+node_modules/
+.gitignore
+.prettierignore
+browserslist
+package*.json

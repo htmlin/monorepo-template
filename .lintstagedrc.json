@@ -1,0 +1,4 @@
+{
+  "*": "prettier --write",
+  "packages/**/src/**/*.(ts|tsx)": "eslint"
+}

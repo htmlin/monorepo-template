@@ -1,0 +1,26 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "./packages/*"
+  ],
+  "scripts": {
+    "prepare": "husky install",
+    "test": "lerna run test",
+    "build": "lerna run build"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "13.1.0",
+    "@commitlint/config-conventional": "13.1.0",
+    "@typescript-eslint/eslint-plugin": "4.29.0",
+    "@typescript-eslint/parser": "4.29.0",
+    "eslint": "7.32.0",
+    "eslint-config-prettier": "8.3.0",
+    "eslint-plugin-react-hooks": "4.2.0",
+    "husky": "7.0.1",
+    "lerna": "^4.0.0",
+    "lint-staged": "11.1.1",
+    "prettier": "2.3.2",
+    "vite": "2.4.4"
+  }
+}
