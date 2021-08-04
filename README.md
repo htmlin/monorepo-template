@@ -14,6 +14,7 @@
 
 # 包含
 
+- Babel
 - Commitlint
 - ESLint
 - Husky
